@@ -7,8 +7,8 @@ import pygame
 from pygame.locals import *
 from collections import deque
 
-SCREEN_WIDTH = 600      # 屏幕宽度
-SCREEN_HEIGHT = 480     # 屏幕高度
+SCREEN_WIDTH = 800      # 屏幕宽度
+SCREEN_HEIGHT = 520     # 屏幕高度
 SIZE = 20               # 小方格大小
 LINE_WIDTH = 1          # 网格线宽度
 
@@ -78,7 +78,7 @@ def main():
     game_over = True
     start = False       # 是否开始，当start = True，game_over = True 时，才显示 GAME OVER
     score = 0           # 得分
-    orispeed = 0.5      # 原始速度
+    orispeed = 0.6      # 原始速度
     speed = orispeed
     last_move_time = None
     pause = False       # 暂停
